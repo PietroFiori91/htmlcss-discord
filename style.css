@@ -170,28 +170,30 @@ h3 {
     color: white;
 }
 
+
+/* FOOTER */
+
+
 footer {
     width: 100%;
     height: auto;
-    background-color: rgb(43, 43, 72);
+    background-color: rgb(35, 39, 42);
     padding-top: 32px;
+    padding-bottom: 3rem;
 }
 
 .top-footer {
-    background-color: pink;
     width: 1200px;
-    height: 600px;
     margin: 32px auto;
     display: flex;
     justify-content: flex-end;
 }
 
 .bottom-footer {
-    background-color: rgb(192, 255, 212);
     width: 1200px;
     height: auto;
     margin:auto;
-    margin-top: 32px;
+    margin-top: 0.5rem;
     justify-content: space-between;
 }
 
@@ -204,16 +206,39 @@ footer section:last-of-type {
 }
 
 .nav-column {
-    background-color: rgb(190, 255, 255);
     height: auto;
-    width: 15%;
-    border-right: 2px solid white;
-}
-
-section h5 {
-    background-color: pink;
+    width: 18%;
 }
 
 footer section div:nth-child(4) {
     border: none;
 }
+
+hr {
+    margin: auto;
+    border: 0.1px solid rgb(114, 137, 218);
+    max-width: 1200px;
+}
+
+footer section button {
+    border-radius: 3rem;
+    border: none;
+    padding: 0.6rem 0.8rem;
+    font-weight: 600;
+    font-size: 0.7rem;
+    background-color: rgb(114, 137, 218);
+    color: white;
+}
+
+footer section div ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+footer section div ul li:first-child {
+    color:rgb(114, 137, 218);
+}
+
