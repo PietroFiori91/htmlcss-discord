@@ -4,21 +4,26 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
-    min-height: 350px;
-    background-color: brown;
     padding-bottom: 32px;
+    background-image: url(./imgs/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
 }
 
 .header-container {
     min-height: 50px;
-    background-color: blue;
+    background-color:rgb(37, 94, 233);
     padding: 16px 32px;
 }
 
 nav {
-    color: chocolate;
-    background-color: aqua;
     display: flex;
     max-width: 1200px;
     width: 100%;
@@ -34,25 +39,63 @@ ul {
 }
 
 li {
-    padding: 0 16px;
+    padding: 0 1rem;
+    font-size: 0.8rem;
 }
 
 .logo-nav {
-    padding: 0 16px;
+    padding: 0 1rem;
+}
+
+header div nav div img {
+    height: 2rem;
 }
 
 .login {
-    padding: 0 16px;
+    padding: 0 1rem;
+}
+
+.btn-base {
+    padding: 0.5rem 0.8rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgb(63, 60, 74);
 }
 
 .header-welcome {
     max-width: 920px;
     width: 100%;
-    height: 400px;
-    background-color: rgb(255, 0, 183);
     margin:auto;
     margin-top: 64px;
     border-radius: 0.5rem;
+}
+
+header div h1 {
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+.hero-description {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+.btn-hero-left, .btn-hero-right {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    font-weight: 100;
+    border-radius: 1.2rem;
+    margin: 0 0.5rem;
+    margin-bottom: 5.5rem;
+}
+
+.btn-hero-right {
+    color: white;
+    background-color: rgb(35, 39, 42);
 }
 
 main {
@@ -62,21 +105,31 @@ main {
 main section {
     max-width: 1200px;
     width: 100%;
-    height: 500px;
-    background-color: aqua;
     margin: 32px auto;
     display: flex;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+main section img {
+    padding: 0 4rem;
+    height: 23rem;
+}
+
+main section div h2 {
+    padding: 2rem 1rem;
+    font-size: 2.3rem;
+}
+
+main section div p {
+    padding: 0 1rem;
+    line-height: 1.5rem;
+    color: rgb(43, 43, 43);
 }
 
 .grey-back {
     background-color: lightgray;
     padding: 10px 10px;
-}
-
-.text-block {
-    height: 100%;
-    width: 33%;
-    background-color: rgb(255, 139, 243);
 }
 
 .mid-section {
