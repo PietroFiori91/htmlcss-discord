@@ -31,6 +31,7 @@ nav {
     line-height: 2rem;
 }
 
+/* NON SI TOGLIE LINK */
 ul {
     display: flex;
     list-style: none;
@@ -85,7 +86,7 @@ header div h1 {
 }
 
 .btn-hero-left, .btn-hero-right {
-    padding: 0.6rem 1rem;
+    padding: 0.8rem 1rem;
     font-size: 1rem;
     font-weight: 100;
     border-radius: 1.2rem;
@@ -116,19 +117,19 @@ main section img {
     height: 23rem;
 }
 
-main section div h2 {
+h2 {
     padding: 2rem 1rem;
     font-size: 2.3rem;
 }
 
-main section div p {
+p {
     padding: 0 1rem;
     line-height: 1.5rem;
     color: rgb(43, 43, 43);
 }
 
 .grey-back {
-    background-color: lightgray;
+    background-color: rgb(246, 246, 246);
     padding: 10px 10px;
 }
 
@@ -136,10 +137,37 @@ main section div p {
     justify-content: flex-end;
 }
 
+
+/* NON MI SI CENTRA --> SOLO SE UNISCO MARGIN AUTO E FLEX*/
+.img-bottom-page {
+    height: 35rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
 .pre-footer {
-    background-color: green;
-    width: 100%px;
-    height: 900px; 
+    text-align: center;
+    display: inline;
+}
+
+/* BG POSIZIONE NON PERFETTA */
+h3 {
+    font-size: 1.5rem;
+    padding: 3rem 0;
+    background-image: url(./imgs/stars.svg);
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+    background-position: center;
+}
+
+.last-btn {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8rem;
+    background-color: rgb(114, 137, 218);
+    color: white;
 }
 
 footer {
@@ -181,8 +209,6 @@ footer section:last-of-type {
     width: 15%;
     border-right: 2px solid white;
 }
-
-
 
 section h5 {
     background-color: pink;
