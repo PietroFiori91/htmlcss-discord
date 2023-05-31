@@ -176,7 +176,10 @@ main section h3 {
     width: auto;
     height: 6rem;
     background-image: url(./imgs/wave.svg);
-    fill: rgb(246, 246, 246);
+}
+
+.reverse {
+    transform: rotate(180deg);
 }
 
 /* FOOTER */
