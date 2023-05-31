@@ -99,6 +99,8 @@ header div h1 {
     background-color: rgb(35, 39, 42);
 }
 
+/* MAIN */
+
 main {
     background-color: white;
 }
@@ -152,7 +154,7 @@ p {
 }
 
 /* BG POSIZIONE NON PERFETTA */
-h3 {
+main section h3 {
     font-size: 1.5rem;
     padding: 3rem 0;
     background-image: url(./imgs/stars.svg);
@@ -170,9 +172,14 @@ h3 {
     color: white;
 }
 
+.grey-bg {
+    width: auto;
+    height: 6rem;
+    background-image: url(./imgs/wave.svg);
+    fill: rgb(246, 246, 246);
+}
 
 /* FOOTER */
-
 
 footer {
     width: 100%;
@@ -197,12 +204,32 @@ footer {
     justify-content: space-between;
 }
 
+footer section h3 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    padding-right: 3rem;
+    line-height: 1.6rem;
+    color: rgb(114, 137, 218);
+}
+
 footer section {
     display: flex;
 }
 
 footer section:last-of-type {
     padding: 8px 0;
+}
+
+footer span {
+    font-size: 0.7rem;
+    margin-top: 10rem;
+    color: white;
+    font-weight: 600;
+}
+
+footer section div img {
+    height: 1rem;
+    display: inline;
 }
 
 .nav-column {
@@ -242,3 +269,6 @@ footer section div ul li:first-child {
     color:rgb(114, 137, 218);
 }
 
+.lenguage {
+    padding-top: 2rem;
+}
